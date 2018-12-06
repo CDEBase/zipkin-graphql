@@ -1,0 +1,22 @@
+{
+  "compilerOptions": {
+    "pretty": true,
+    "sourceMap": true,
+    "target": "es2017",
+    "declaration": true,
+    "module": "commonjs",
+    "removeComments": true,
+    "noImplicitAny": false,
+    "moduleResolution": "node",
+    "experimentalDecorators": true,
+    "allowSyntheticDefaultImports": true,
+    "lib": [
+      "dom",
+      "es2017",
+      "esnext.asynciterable"
+    ],
+    "types": [
+      "@types/node"
+    ]
+  }
+}

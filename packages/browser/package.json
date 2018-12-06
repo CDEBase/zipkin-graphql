@@ -1,0 +1,19 @@
+{
+  "name": "@zipkin-graphql/browser",
+  "version": "0.0.1",
+  "description": "",
+  "main": "lib/index.js",
+  "scripts": {
+    "build": "tsc -p .",
+    "test": "jest"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "apollo-client": "^2.4.7",
+    "apollo-link": "^1.2.4",
+    "apollo-link-context": "^1.0.10",
+    "bunyan": "^1.8.12",
+    "graphql-tag": "^2.10.0"
+  }
+}

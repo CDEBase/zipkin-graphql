@@ -1,0 +1,23 @@
+{
+  "name": "zipkin-graphql",
+  "version": "0.0.1",
+  "description": "",
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "jest",
+    "build": "lerna run build"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/graphql": "^14.0.3",
+    "@types/node": "^10.12.12",
+    "@types/jest": "^23.3.10",
+    "jest": "^23.6.0",
+    "lerna": "^2.11.0",
+    "rimraf": "^2.6.1",
+    "typescript": "^3.2.1",
+    "ts-jest": "^23.10.5"
+  },
+  "dependencies": {}
+}

@@ -1,0 +1,25 @@
+{
+  "name": "@zipkin-graphql/server",
+  "version": "0.0.1",
+  "description": "",
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "jest",
+    "build": "tsc -p ."
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "apollo-client": "^2.4.7",
+    "apollo-datasource-rest": "^0.2.1",
+    "apollo-server-core": "^2.2.5",
+    "bunyan": "^1.8.12",
+    "graphql": "^14.0.2",
+    "graphql-extensions": "^0.3.6",
+    "graphql-tools": "^4.0.3",
+    "opentracing": "^0.14.3",
+    "react-request": "^3.1.2",
+    "request-promise": "^4.2.2",
+    "zipkin": "^0.14.3"
+  }
+}
